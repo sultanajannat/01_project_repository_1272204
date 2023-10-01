@@ -9,6 +9,7 @@ namespace _01_project_repository_1272204.Repositories
 {
     public class ProductRepo : IRepository
     {
+        //interface implementation
         public void DeleteInfo(int productId)
         {
             Product product=ProductDB.ProductList.FirstOrDefault(x => x.ProductId == productId); 
